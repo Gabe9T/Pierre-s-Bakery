@@ -1,6 +1,6 @@
 namespace PierreBakery
 {
-    class Bread
+    public class Bread
     {
         public int CalculateCost(int quantity)
         {
