@@ -1,28 +1,12 @@
-# *Name*
 #### By Gabriel Tucker
 
 ## Table of Contents
-- [About](#about)
-- [Demo](#demo)
 - [Technologies Used](#technologies-used)
-- [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
 - [Known Bugs](#known-bugs)
 - [License](#license)
-- [Contact](#contact)
 
-## About
-*ABOUT SECTION*
 
-The primary functionality of the application is *FILL IN*...:
-- 
-- 
-- 
-
-## Demo
-You can try out the live demo [here](https://Gabe9T.github.io/).
 
 ## Technologies Used
 - **Language**: C#
@@ -33,9 +17,6 @@ You can try out the live demo [here](https://Gabe9T.github.io/).
 - **Testing**: MSTest
 - **Build Tool**: MSBuild
 
-## Features
-- **FEATURE**: 
-- **FEATURE**: 
 
 ## Installation
 
@@ -45,23 +26,9 @@ Follow these steps to set up the project locally:
    ```bash
    git clone https://github.com/Gabe9T/NAME/.git
    ```
-3. Open the project directory:
-   ```bash
-   cd *PROJECT NAME*
-   ```
-4. Open in a code editor like __Visual Studio Code__.
-5. In the command line, run the command ``` dotnet run ``` to compile and execute the console application. Since this is a console application, you'll interact with it through text commands in your terminal.
-6. Optionally, you can run ``` dotnet build ``` to compile this console app without running it.
-
-## Contributing
-
-I welcome contributions to improve the project. If you'd like to contribute, please follow these guidelines:
-1. Fork the project repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and test thoroughly.
-4. Commit your changes with a descriptive commit message.
-5. Push your branch to your forked repository.
-6. Create a pull request to the main repository.
+3. Open in a code editor like __Visual Studio Code__.
+4. In the command line, run the command ``` dotnet run ``` to compile and execute the console application. Since this is a console application, you'll interact with it through text commands in your terminal.
+5. Optionally, you can run ``` dotnet build ``` to compile this console app without running it.
 
 ## Known Bugs
 
