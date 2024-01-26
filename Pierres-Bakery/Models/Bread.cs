@@ -2,10 +2,17 @@ namespace PierreBakery
 {
     public class Bread
     {
-        public int CalculateCost(int quantity)
+        public int Quantity { get; set; }
+
+        public Bread(int quantity)
         {
-            int dealQuantity = (quantity / 3) * 2;
-            int remaining = quantity % 3;
+            Quantity = quantity;
+        }
+
+        public int CalculateCost()
+        {
+            int dealQuantity = (Quantity / 3) * 2;
+            int remaining = Quantity % 3;
 
             return dealQuantity * 5 + remaining * 5;
         }
