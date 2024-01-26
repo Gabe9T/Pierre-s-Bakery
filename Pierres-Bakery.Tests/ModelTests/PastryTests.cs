@@ -9,31 +9,22 @@ namespace PierreBakery.Tests
         [TestMethod]
         public void CalculateCost_ReturnsCorrectTotalCost_ForMultipleOfThree()
         {
-            Pastry pastry = new Pastry();
-
-            // a multiple of 3
-            int totalCost1 = pastry.CalculateCost(6);
-            Assert.AreEqual(10, totalCost1); 
+            Pastry pastry = new Pastry(6);
+            Assert.AreEqual(10, pastry.CalculateCost());
         }
 
         [TestMethod]
         public void CalculateCost_ReturnsCorrectTotalCost_ForNotMultipleOfThree()
         {
-            Pastry pastry = new Pastry();
-
-            // not a multiple of 3
-            int totalCost2 = pastry.CalculateCost(5);
-            Assert.AreEqual(8, totalCost2);
+            Pastry pastry = new Pastry(5);
+            Assert.AreEqual(8, pastry.CalculateCost());
         }
 
         [TestMethod]
         public void CalculateCost_ReturnsCorrectTotalCost_ForZeroQuantity()
         {
-            Pastry pastry = new Pastry();
-
-            // 0 quantity
-            int totalCost3 = pastry.CalculateCost(0);
-            Assert.AreEqual(0, totalCost3);
+            Pastry pastry = new Pastry(0);
+            Assert.AreEqual(0, pastry.CalculateCost());
         }
     }
 }
